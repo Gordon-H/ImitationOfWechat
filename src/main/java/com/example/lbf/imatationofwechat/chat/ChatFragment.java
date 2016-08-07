@@ -220,6 +220,7 @@ public class ChatFragment extends Fragment implements ChatContract.View,View.OnC
                     InputMethodUtil.hideKeyboard(mContext);
                     return true;
                 }
+
                 return false;
             }
         });
