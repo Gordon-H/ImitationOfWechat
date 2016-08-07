@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        app:navigationIcon="@drawable/actionbar_icon_back"
+        android:layout_height="?attr/actionBarSize">
+            <com.example.lbf.imatationofwechat.views.Search_Input_View
+                android:id="@+id/viewSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="搜索"
+                android:drawableLeft="@drawable/actionbar_search_icon"
+                android:drawableRight="@drawable/actionbar_icon_sound"
+                android:textColor="@color/toolBarText"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:textColorHint="#646363"
+                android:textSize="14sp"
+                android:lines="1"/>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

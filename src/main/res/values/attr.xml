@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="description" format="string"/>
+    <attr name="iconSelected" format="reference"/>
+    <attr name="iconNormal" format="reference"/>
+    <attr name="desTextSize" format="dimension"/>
+    <attr name="viewColor" format="color"/>
+    <declare-styleable name="TabItemView">
+        <attr name="desTextSize"/>
+        <attr name="iconSelected"/>
+        <attr name="iconNormal"/>
+        <attr name="description"/>
+        <attr name="viewColor"/>
+    </declare-styleable>
+    <attr name="canClear" format="boolean"/>
+    <attr name="drawableRightHighLight" format="reference"/>
+
+    <declare-styleable name="TextInputView">
+        <attr name="canClear"/>
+        <attr name="drawableRightHighLight"/>
+    </declare-styleable>
+
+    <attr name="content" format="string"/>
+    <attr name="maxLines" format="integer"/>
+
+    <declare-styleable name="ExpandTextView">
+        <attr name="content"/>
+        <attr name="maxLines"/>
+    </declare-styleable>
+
+    <attr name="viewIcon" format="reference"/>
+    <declare-styleable name="MultiItemTextView">
+        <attr name="viewIcon"/>
+    </declare-styleable>
+    <attr name="itemText" format="string|reference"/>
+    <attr name="itemImage" format="reference"/>
+    <declare-styleable name="ItemView">
+        <attr name="itemText"/>
+        <attr name="itemImage"/>
+    </declare-styleable>
+
+</resources>

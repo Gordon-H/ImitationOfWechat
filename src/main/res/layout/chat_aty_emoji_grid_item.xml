@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_chat_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/itemBg"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/iv_expression"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:background="@drawable/emoji_bg"
+        android:src="@drawable/smiley_0"
+        android:clickable="true">
+    </ImageView>
+</RelativeLayout>

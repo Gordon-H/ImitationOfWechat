@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/tool_bar"
+        android:id="@+id/toolBar"
+        app:navigationIcon="@drawable/actionbar_icon_back" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/follow_recycler_view"
+        android:layout_below="@id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/section_tv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_centerInParent="true"
+        android:textColor="#f1ebeb"
+        android:background="@drawable/contacts_section_background"
+        android:visibility="gone"/>
+    <com.example.lbf.imatationofwechat.views.ContactsIndicatorView
+        android:id="@+id/follow_indicator_view"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolBar"
+        android:clickable="true"
+        android:background="@drawable/contacts_indicator_background">
+    </com.example.lbf.imatationofwechat.views.ContactsIndicatorView>
+</RelativeLayout>

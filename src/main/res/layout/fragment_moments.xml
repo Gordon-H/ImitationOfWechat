@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.lbf.imatationofwechat.views.CustomSwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+        </android.support.v7.widget.RecyclerView>
+    </com.example.lbf.imatationofwechat.views.CustomSwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/rlBottomBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:visibility="gone">
+        <com.example.lbf.imatationofwechat.views.TextInputView
+            android:id="@+id/viewInputText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableRight="@drawable/sp"
+            android:maxLines="4"
+            android:minHeight="36dp"
+            android:textSize="14sp"
+            app:drawableRightHighLight="@drawable/so" />
+        <Button
+            android:id="@+id/btSend"
+            android:layout_width="44dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/chat_bt_send_bg"
+            android:layout_marginStart="12dp"
+            android:text="发送"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpPanelEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:visibility="gone"></android.support.v4.view.ViewPager>
+</LinearLayout>

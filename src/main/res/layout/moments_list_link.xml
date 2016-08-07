@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/item_stressed_background">
+    <ImageView
+        android:id="@+id/iv_link_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/avatar_tencent_love"/>
+    <TextView
+        android:id="@+id/tv_link_text"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:text="hello"/>
+
+</LinearLayout>

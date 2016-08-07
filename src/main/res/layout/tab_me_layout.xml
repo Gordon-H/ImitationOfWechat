@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBg">
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/itemBg">
+        <ImageView
+            android:id="@+id/tab_me_avatar"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/me_avatar"/>
+        <TextView
+            android:id="@+id/tab_me_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tab_me_avatar"
+            android:layout_marginTop="22dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:text="Gordon" />
+        <TextView
+            android:id="@+id/tab_me_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tab_me_avatar"
+            android:layout_below="@id/tab_me_name"
+            android:layout_marginTop="4dp"
+            android:textSize="10sp"
+            android:textColor="#9c9b9b"
+            android:text="微信号：136xxxxxxxx" />
+        <ImageView
+            android:id="@+id/tab_me_qr_image"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/me_qr_code" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tab_me_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainBg"
+        ></android.support.v7.widget.RecyclerView>
+</LinearLayout>

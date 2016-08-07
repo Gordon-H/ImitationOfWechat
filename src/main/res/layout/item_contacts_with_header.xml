@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_item_section"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/mainBg"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="A"
+        android:textSize="10sp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contact_item_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/item_normal_background"
+        android:clickable="true"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/contact_item_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/display_picture_default" />
+
+        <TextView
+            android:id="@+id/contact_item_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/contact_item_image"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="name"
+            android:textColor="#787474"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

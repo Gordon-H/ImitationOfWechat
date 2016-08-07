@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_contacts_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <include layout="@layout/include_progress_dialog"
+        android:id="@+id/ll_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/tv_contacts_section"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_centerInParent="true"
+        android:textColor="#f1ebeb"
+        android:background="@drawable/contacts_section_background"
+        android:visibility="gone"/>
+    <com.example.lbf.imatationofwechat.views.ContactsIndicatorView
+        android:id="@+id/view_contacts_indicator"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:background="@drawable/contacts_indicator_background">
+    </com.example.lbf.imatationofwechat.views.ContactsIndicatorView>
+</RelativeLayout>

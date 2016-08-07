@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/chat_aty_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cac8c8"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="09:00"
+        android:padding="4dp"
+        android:textSize="10sp"
+        android:layout_marginBottom="4dp"/>
+
+        <ImageView
+            android:id="@+id/chat_aty_item_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:layout_below="@id/chat_aty_item_time"
+            android:src="@drawable/display_picture_default" />
+
+        <ImageView
+            android:id="@+id/chat_aty_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/chat_aty_item_image"
+            android:layout_below="@id/chat_aty_item_time"
+            android:gravity="center"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>

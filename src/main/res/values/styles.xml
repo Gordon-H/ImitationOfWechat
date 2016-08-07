@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/WeChatActionBarOverflow</item>
+
+    </style>
+    <style name="WeChatActionBarOverflow" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:itemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/toolBarText</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+    
+    <style name="Transparent" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="PopupMenuAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/up_in</item>
+        <item name="android:windowExitAnimation">@anim/down_out</item>
+    </style>
+    <style name="PopupMomentListMoreAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/left_in</item>
+        <item name="android:windowExitAnimation">@anim/right_out</item>
+    </style>
+    <style name="DividerHorizontal">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:color">@color/dividerLine</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="SettingItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>"
+        <item name="android:gravity">center_vertical</item>"
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/item_normal_background</item>
+        <item name="android:layout_marginTop">0.1dp</item>
+    </style>
+</resources>

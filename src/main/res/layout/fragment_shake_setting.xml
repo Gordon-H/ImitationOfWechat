@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBg">
+    <TextView
+        android:id="@+id/tv_shakeSetting_setDefaultImage"
+        style="@style/SettingItem"
+        android:layout_marginTop="24dp"
+        android:text="使用默认的背景图片"
+        />
+    <TextView
+        android:id="@+id/tv_shakeSetting_changeImage"
+        style="@style/SettingItem"
+        android:text="换张背景图片"
+        />
+    <RelativeLayout
+        style="@style/SettingItem"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="音效"/>
+        <ToggleButton
+            android:id="@+id/tgBtn_sound"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/bg_switch"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_shakeSetting_people"
+        style="@style/SettingItem"
+        android:layout_marginTop="24dp"
+        android:text="打招呼的人"
+        />
+
+    <TextView
+        android:id="@+id/tv_shakeSetting_history"
+        style="@style/SettingItem"
+        android:text="摇到的历史"
+        />
+    <TextView
+        android:id="@+id/tv_shakeSetting_message"
+        style="@style/SettingItem"
+        android:layout_marginTop="24dp"
+        android:text="摇一摇消息"
+        />
+</LinearLayout>

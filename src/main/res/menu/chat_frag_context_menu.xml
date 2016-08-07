@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/context_set_on_top"
+        android:title="取消置顶" />
+    <item android:id="@+id/context_unset_on_top"
+        android:title="置顶聊天"/>
+    <item android:id="@+id/context_delete_chat"
+        android:title="删除该聊天"/>
+    <item android:id="@+id/context_un_follow"
+        android:title="不再关注"/>
+    <item android:id="@+id/context_set_remarks"
+        android:title="设置备注及标签"/>
+
+</menu>

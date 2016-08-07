@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:id="@+id/discover_item_header"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/mainBg"/>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_discover_moments"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/item_normal_background">
+
+        <ImageView
+            android:id="@+id/discover_item_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/display_picture_default" />
+
+        <TextView
+            android:id="@+id/discover_item_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/discover_item_image"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:lines="1"
+            android:text="name"
+            android:textColor="#787474"
+            android:textSize="14sp"
+            />
+    <ImageView
+        android:id="@+id/discover_item_news_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/avatar_tencent_love"
+        android:visibility="gone"/>
+        <TextView
+            android:id="@+id/discover_item_news_text"
+            android:layout_toLeftOf="@id/discover_item_news_image"
+            android:text="《保卫萝卜3》送纯金萝卜"
+            android:textSize="10sp"
+            android:textColor="#bebebe"
+            android:layout_width="130dp"
+            android:gravity="right"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="图片和视频"
+        app:titleTextColor="@color/toolBarText"
+        app:navigationIcon="@drawable/actionbar_icon_back">
+        <Button
+            android:id="@+id/btSend"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@drawable/choose_image_bt_send_bg"
+            android:enabled="false"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="8dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:minWidth="0dp"
+            android:alpha="0.6"
+            android:text="发送"/>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_profile_photo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/avatar_person1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="#8290AF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_url_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="分享了一个连接"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#aeaeae"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.example.lbf.imatationofwechat.views.ExpandTextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                app:maxLines="4"/>
+            <include
+                android:id="@+id/ll_list_link" layout="@layout/moments_list_link"/>
+            <!-- 不同的地方 -->
+			<!--<ViewStub-->
+			    <!--android:id="@+id/viewStub"-->
+			    <!--android:layout_width="match_parent"-->
+			    <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+			    <!--/>-->
+            <!-- 地址、时间 、删除 、点赞、 评论 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/im_font_color_text_hint"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="删除"
+                    android:textSize="12sp"
+                    android:textColor="#8290AF"
+                    android:background="@drawable/im_selector_social_dig_name_bg"
+                    android:visibility="gone"/>
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:padding="4dp"
+                    android:src="@drawable/circle_more1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="10dip"
+                android:paddingLeft="12dip"
+                android:paddingTop="12dip"
+                android:paddingRight="12dip"
+                android:paddingBottom="8dip"
+                android:background="@drawable/im_distribute_comm_bg"
+                android:orientation="vertical" >
+
+                <com.example.lbf.imatationofwechat.views.MultiItemTextView
+                    android:id="@+id/lv_favor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    app:viewIcon="@drawable/moment_favor3"
+                    />
+
+                <View 
+                    android:id="@+id/view_dig"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/dividerLine"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    />
+                <com.example.lbf.imatationofwechat.views.CommentsTextView
+                    android:id="@+id/lv_comment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

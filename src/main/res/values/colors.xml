@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303537</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#44f12d</color>
+    <color name="toolBarText">#cfcfcf</color>
+    <color name="editTextUnderLine">#45ca45</color>
+    <color name="itemBg">#ffffff</color>
+    <color name="itemBgStressed">#efeded</color>
+    <color name="itemBgPressed">#d4cfcf</color>
+    <color name="mainBg">#ece6e6</color>
+    <color name="contactsIndicatorNormal">#00ffffff</color>
+    <color name="contactsIndicatorSelect">#9b9797</color>
+    <color name="transparent_background">#b7303537</color>
+    <color name="imageDefaultBg">#313131</color>
+    <color name="white">#ffffff</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="praise_item">#8290AF</color>
+    <color name="dividerLine">#dadada</color>
+
+    <color name="item_text">#787474</color>
+
+</resources>

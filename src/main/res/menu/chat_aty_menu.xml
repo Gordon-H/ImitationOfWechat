@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/R.id.chat_aty_menu_contact_info"
+        android:title="聊天信息"
+        android:icon="@drawable/chat_contact_icon"
+        app:showAsAction="always"/>
+</menu>

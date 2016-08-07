@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <com.example.lbf.imatationofwechat.views.TabItemView
+        android:id="@+id/tab_item_chats"
+        app:iconNormal="@drawable/chats1"
+        app:iconSelected="@drawable/chats2"
+        app:description="微信"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:layout_height="match_parent" />
+    <com.example.lbf.imatationofwechat.views.TabItemView
+        android:id="@+id/tab_item_contacts"
+        app:iconNormal="@drawable/contacts1"
+        app:iconSelected="@drawable/contacts2"
+        app:description="通讯录"
+        android:padding="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <com.example.lbf.imatationofwechat.views.TabItemView
+        android:id="@+id/tab_item_discover"
+        app:iconNormal="@drawable/discover1"
+        app:iconSelected="@drawable/discover2"
+        android:padding="8dp"
+        app:description="发现"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <com.example.lbf.imatationofwechat.views.TabItemView
+        android:id="@+id/tab_item_me"
+        app:iconNormal="@drawable/me1"
+        app:iconSelected="@drawable/me2"
+        app:description="我"
+        android:layout_width="0dp"
+        android:padding="8dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
