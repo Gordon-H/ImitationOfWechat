@@ -1,10 +1,12 @@
-package com.example.lbf.imatationofwechat;
+package com.example.lbf.imatationofwechat.views;
 
 import android.content.Context;
 import android.support.v4.view.ActionProvider;
 import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
+
+import com.example.lbf.imatationofwechat.R;
 
 /**
  * Created by lbf on 2016/6/26.
