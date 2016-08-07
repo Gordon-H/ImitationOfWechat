@@ -1,1 +1,1 @@
-# ImatationOfWechat
+# ImitationOfWechat
