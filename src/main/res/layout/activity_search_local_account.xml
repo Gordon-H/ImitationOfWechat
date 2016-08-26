@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         app:navigationIcon="@drawable/actionbar_icon_back"
         android:layout_height="?attr/actionBarSize">
-            <com.example.lbf.imatationofwechat.views.Search_Input_View
+            <com.example.lbf.imitationofwechat.views.Search_Input_View
                 android:id="@+id/viewSearch"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

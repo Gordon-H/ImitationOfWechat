@@ -50,7 +50,7 @@
                     android:textSize="14sp" />
             </LinearLayout>
 
-            <com.example.lbf.imatationofwechat.views.ExpandTextView
+            <com.example.lbf.imitationofwechat.views.ExpandTextView
                 android:id="@+id/tv_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                 android:background="@drawable/im_distribute_comm_bg"
                 android:orientation="vertical" >
 
-                <com.example.lbf.imatationofwechat.views.MultiItemTextView
+                <com.example.lbf.imitationofwechat.views.MultiItemTextView
                     android:id="@+id/lv_favor"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                     android:layout_marginTop="5dip"
                     android:layout_marginBottom="5dip"
                     />
-                <com.example.lbf.imatationofwechat.views.CommentsTextView
+                <com.example.lbf.imitationofwechat.views.CommentsTextView
                     android:id="@+id/lv_comment"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"

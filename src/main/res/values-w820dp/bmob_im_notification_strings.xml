@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bmob_im_notification_have">有</string>
+    <string name="bmob_im_notification_send">发来了</string>
+    <string name="bmob_im_notification_msg">条消息</string>
+    <string name="bmob_im_notification_contact">个联系人</string>
+    <string name="bmob_im_notification_ticker">您有一条新消息</string>
+</resources>

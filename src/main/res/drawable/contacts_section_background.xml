@@ -2,5 +2,5 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <!--<item android:drawable="@color/contactSectionBackground"/>-->
     <corners android:radius="5dp"/>
-    <solid android:color="#c6453e3e"/>
+    <solid android:color="#df453e3e"/>
 </shape>

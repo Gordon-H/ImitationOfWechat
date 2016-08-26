@@ -8,7 +8,7 @@
     <item android:id="@+id/menu_item_plus"
         app:showAsAction="ifRoom"
         android:icon="@drawable/actionbar_plus_icon"
-        app:actionProviderClass="com.example.lbf.imatationofwechat.PlusActionProvider"
+        app:actionProviderClass="com.example.lbf.imitationofwechat.views.PlusActionProvider"
         android:title="more"/>
 
 </menu>

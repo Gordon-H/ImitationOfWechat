@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/item_normal_background">
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/display_picture_default" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:lines="1"
+            android:text="name"
+            android:textColor="#787474"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_signature"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:text="好好学习"
+            android:textSize="10sp"
+            android:textColor="#bebebe"
+            android:layout_width="130dp"
+            android:gravity="right"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.lbf.imatationofwechat.views.CustomSwipeRefreshLayout
+    <com.example.lbf.imitationofwechat.views.CustomSwipeRefreshLayout
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:background="#ffffff">
         </android.support.v7.widget.RecyclerView>
-    </com.example.lbf.imatationofwechat.views.CustomSwipeRefreshLayout>
+    </com.example.lbf.imitationofwechat.views.CustomSwipeRefreshLayout>
 
     <LinearLayout
         android:id="@+id/rlBottomBar"
@@ -27,7 +27,7 @@
         android:background="#ffffff"
         android:padding="8dp"
         android:visibility="gone">
-        <com.example.lbf.imatationofwechat.views.TextInputView
+        <com.example.lbf.imitationofwechat.views.TextInputView
             android:id="@+id/viewInputText"
             android:layout_width="0dp"
             android:layout_weight="1"

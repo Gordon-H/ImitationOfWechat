@@ -23,7 +23,7 @@
         android:textColor="#f1ebeb"
         android:background="@drawable/contacts_section_background"
         android:visibility="gone"/>
-    <com.example.lbf.imatationofwechat.views.ContactsIndicatorView
+    <com.example.lbf.imitationofwechat.views.ContactsIndicatorView
         android:id="@+id/follow_indicator_view"
         android:layout_width="20dp"
         android:layout_height="match_parent"
@@ -31,5 +31,5 @@
         android:layout_below="@id/toolBar"
         android:clickable="true"
         android:background="@drawable/contacts_indicator_background">
-    </com.example.lbf.imatationofwechat.views.ContactsIndicatorView>
+    </com.example.lbf.imitationofwechat.views.ContactsIndicatorView>
 </RelativeLayout>

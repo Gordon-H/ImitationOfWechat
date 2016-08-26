@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:background="#cac8c8"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="昨天09:00"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvTime"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/display_picture_default" />
+
+    <ImageView
+        android:id="@+id/ivContent"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/tvTime"
+        android:layout_toRightOf="@id/ivAvatar"
+        android:gravity="center"
+        android:src="@drawable/ad4"
+        android:background="@drawable/chat_msg_bg_receive"
+        android:scaleType="fitStart" />
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@id/tvTime"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/ivContent"
+        android:gravity="center"
+        android:text="2''" />
+</RelativeLayout>

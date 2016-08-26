@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cac8c8"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="昨天09:00"
+        android:padding="4dp"
+        android:textSize="10sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/ivContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:background="#cac8c8"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="已添加好友"
+        android:padding="4dp"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+
+
+</LinearLayout>

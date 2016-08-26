@@ -1,121 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/mainBg"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout
-        android:id="@+id/view_discover_moments"
+    <com.example.lbf.imitationofwechat.views.ItemView
+        android:id="@+id/view_moments"
         android:layout_width="match_parent"
         android:layout_marginTop="@dimen/item_header_height"
         android:layout_height="@dimen/item_height"
-        android:background="@drawable/item_normal_background">
+        android:background="@drawable/item_normal_background"
+        app:leftImage="@drawable/discover_moments"
+        app:rightImage="@drawable/avatar_tencent_love"
+        app:leftText="朋友圈"
+        />
 
-        <ImageView
-            android:id="@+id/iv_discover_momentsItemIcon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/discover_moments" />
+    <!--<com.example.lbf.imitationofwechat.views.ItemView-->
+        <!--android:id="@+id/view_discover_moments"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="@dimen/item_header_height"-->
+        <!--android:layout_height="@dimen/item_height"-->
+        <!--android:background="@drawable/item_normal_background">-->
 
-        <TextView
-            android:id="@+id/tv_discover_momentsItemTitle"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/iv_discover_momentsItemIcon"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:layout_centerVertical="true"
-            android:lines="1"
-            android:textColor="@color/item_text"
-            android:textSize="@dimen/item_text_size"
-            />
-        <ImageView
-            android:id="@+id/iv_discover_momentsItemImage"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="16dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:src="@drawable/avatar_tencent_love"/>
-    </RelativeLayout>
-    <com.example.lbf.imatationofwechat.views.ItemView
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_discover_momentsItemIcon"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/discover_moments" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_discover_momentsItemTitle"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@id/iv_discover_momentsItemIcon"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:lines="1"-->
+            <!--android:textColor="@color/item_text_right"-->
+            <!--android:textSize="@dimen/item_text_size"-->
+            <!--/>-->
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_discover_momentsItemImage"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/avatar_tencent_love"/>-->
+    <!--</com.example.lbf.imitationofwechat.views.ItemView>-->
+    <com.example.lbf.imitationofwechat.views.ItemView
         android:layout_marginTop="@dimen/item_header_height"
-        android:id="@+id/view_discover_scan"
+        android:id="@+id/view_scan"
         android:background="@drawable/item_normal_background"
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"/>
-    <com.example.lbf.imatationofwechat.views.ItemView
-        android:id="@+id/view_discover_shake"
+    <com.example.lbf.imitationofwechat.views.ItemView
+        android:id="@+id/view_shake"
         android:layout_marginTop="@dimen/item_divider_height"
         android:background="@drawable/item_normal_background"
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"/>
-    <com.example.lbf.imatationofwechat.views.ItemView
+    <com.example.lbf.imitationofwechat.views.ItemView
         android:layout_marginTop="@dimen/item_header_height"
-        android:id="@+id/view_discover_peopleNearby"
+        android:id="@+id/view_peopleNearby"
         android:background="@drawable/item_normal_background"
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"/>
-    <com.example.lbf.imatationofwechat.views.ItemView
-        android:id="@+id/view_discover_bottle"
+    <com.example.lbf.imitationofwechat.views.ItemView
+        android:id="@+id/view_bottle"
         android:layout_marginTop="@dimen/item_divider_height"
         android:background="@drawable/item_normal_background"
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"/>
-    <RelativeLayout
-        android:id="@+id/view_discover_games"
-        android:layout_marginTop="@dimen/item_header_height"
+    <com.example.lbf.imitationofwechat.views.ItemView
+        android:id="@+id/view_games"
         android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/item_header_height"
         android:layout_height="@dimen/item_height"
-        android:clickable="true"
-        android:background="@drawable/item_normal_background">
+        android:background="@drawable/item_normal_background"
+        app:leftImage="@drawable/discover_games"
+        app:rightImage="@drawable/avatar_tencent_love"
+        app:leftText="游戏"
+        app:rightText="《保卫萝卜3》送纯金萝卜"
+        />
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/view_discover_games"-->
+        <!--android:layout_marginTop="@dimen/item_header_height"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/item_height"-->
+        <!--android:clickable="true"-->
+        <!--android:background="@drawable/item_normal_background">-->
 
-        <ImageView
-            android:id="@+id/iv_discover_gamesItemIcon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/discover_games" />
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_discover_gamesItemIcon"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/discover_games" />-->
 
-        <TextView
-            android:id="@+id/tv_discover_gamesItemTitle"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/iv_discover_gamesItemIcon"
-            android:ellipsize="end"
-            android:gravity="center_vertical"
-            android:layout_centerVertical="true"
-            android:lines="1"
-            android:text="name"
-            android:textColor="#787474"
-            android:textSize="14sp"
-            />
-        <ImageView
-            android:id="@+id/iv_discover_gamesItemImage"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="16dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:src="@drawable/avatar_tencent_love" />
-        <TextView
-            android:id="@+id/iv_discover_gamesItemText"
-            android:layout_toLeftOf="@id/iv_discover_gamesItemImage"
-            android:text="《保卫萝卜3》送纯金萝卜"
-            android:textSize="10sp"
-            android:textColor="#bebebe"
-            android:layout_width="130dp"
-            android:gravity="right"
-            android:lines="1"
-            android:ellipsize="end"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true" />
-    </RelativeLayout>
+        <!--<TextView-->
+            <!--android:id="@+id/tv_discover_gamesItemTitle"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@id/iv_discover_gamesItemIcon"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:lines="1"-->
+            <!--android:text="name"-->
+            <!--android:textColor="#787474"-->
+            <!--android:textSize="14sp"-->
+            <!--/>-->
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_discover_gamesItemImage"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:src="@drawable/avatar_tencent_love" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/iv_discover_gamesItemText"-->
+            <!--android:layout_toLeftOf="@id/iv_discover_gamesItemImage"-->
+            <!--android:text="《保卫萝卜3》送纯金萝卜"-->
+            <!--android:textSize="10sp"-->
+            <!--android:textColor="@color/item_text_right"-->
+            <!--android:layout_width="130dp"-->
+            <!--android:gravity="right"-->
+            <!--android:lines="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true" />-->
+    <!--</RelativeLayout>-->
 </LinearLayout>

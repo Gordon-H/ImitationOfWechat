@@ -22,12 +22,12 @@
         android:textColor="#f1ebeb"
         android:background="@drawable/contacts_section_background"
         android:visibility="gone"/>
-    <com.example.lbf.imatationofwechat.views.ContactsIndicatorView
+    <com.example.lbf.imitationofwechat.views.ContactsIndicatorView
         android:id="@+id/view_contacts_indicator"
         android:layout_width="20dp"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:clickable="true"
         android:background="@drawable/contacts_indicator_background">
-    </com.example.lbf.imatationofwechat.views.ContactsIndicatorView>
+    </com.example.lbf.imitationofwechat.views.ContactsIndicatorView>
 </RelativeLayout>

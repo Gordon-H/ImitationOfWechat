@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">高仿微信</string>
+    <string name="login_username_hint">请输入用户名...</string>
+    <string name="login_name_hint">请输入昵称...</string>
+    <string name="login_password_hint">请输入密码...</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立刻注册</string>
+    <string name="login_email_hint">请再次输入密码...</string>
+    <string name="register">注册</string>
 </resources>

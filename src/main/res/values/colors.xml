@@ -19,6 +19,8 @@
     <color name="praise_item">#8290AF</color>
     <color name="dividerLine">#dadada</color>
 
-    <color name="item_text">#787474</color>
+    <color name="item_text_left">#545151</color>
+    <color name="item_text_right">#9b9595</color>
+    <color name="transparent">#00000000</color>
 
 </resources>

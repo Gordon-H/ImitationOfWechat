@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_groupChat"
+        android:title="发起群聊"/>
+    <item android:id="@+id/menu_item_addFriend"
+        android:title="添加朋友"/>
+    <item android:id="@+id/menu_item_scan"
+        android:title="扫一扫"/>
+    <item android:id="@+id/menu_item_pay"
+        android:title="收付款"/>
+    <item android:id="@+id/menu_item_help"
+        android:title="帮助与反馈"/>
+
+</menu>

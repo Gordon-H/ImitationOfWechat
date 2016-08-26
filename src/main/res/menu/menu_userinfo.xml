@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_item_more"
+        android:icon="@drawable/actionbar_more"
+        app:showAsAction="always"
+        app:actionProviderClass="com.example.lbf.imitationofwechat.views.UserInfoActionProvider"
+        android:title="更多"/>
+</menu>
